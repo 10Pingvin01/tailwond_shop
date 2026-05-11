@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+    --main-brand: #415BE7;
+    --second-brand: #2F45B9;
+    --placeholder: #818EA1;
+    --bg-light-gray: #DBDDE3;
+    --bg-dark-gray: #525252;
+    --text-red: oklch(57.7% 0.245 27.325);
+    --font-main: "Helvetica-regular", sans-serif;
+    --font-second: "Helvetica-medium", sans-serif;
+    --font-third: "Helvetica-bold", sans-serif;
+}

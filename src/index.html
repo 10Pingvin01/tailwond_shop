@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<header class="max-w-[1440px] px-5 lg:px-20 py-5 flex justify-between flex-col sm:flex-row">
+<!--    <img src="../public/furniture.png" alt="">-->
+    <div class="w-[200px] h-[36px] border mb-3 sm:mb-0"></div>
+    <div class="flex">
+        <div class="flex items-center">
+            <div class="group border h-8 w-8 rounded-full mr-2 border-[#DBDDE3] hover:bg-(--main-brand) duration-500 flex items-center justify-center cursor-pointer transition-colors">
+                <svg class="group-hover:opacity-0 duration-500 transition-opacity" width="20" height="20"
+                     viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.6667 5L7.50004 14.1667L3.33337 10" stroke="#415BE7" stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+                <span class="opacity-0 group-hover:opacity-100 text-white text-center duration-500 absolute">1</span>
+            </div>
+            <span class="font-main">Cart</span>
+            <svg width="48" height="1" viewBox="0 0 48 1" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-2 w-2 sm:w-12">
+                <line y1="0.5" x2="48" y2="0.5" stroke="#DBDDE3"/>
+            </svg>
+        </div>
+        <div class="flex items-center">
+            <div class="group border h-8 w-8 rounded-full m-2 border-[#DBDDE3] hover:bg-(--main-brand) duration-500 flex items-center justify-center cursor-pointer transition-colors">
+                <svg class="group-hover:opacity-0 duration-500 transition-opacity" width="20" height="20"
+                     viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.6667 5L7.50004 14.1667L3.33337 10" stroke="#415BE7" stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+                <span class="opacity-0 group-hover:opacity-100 text-white text-center duration-500 absolute">2</span>
+            </div>
+            <span class="font-main">Review</span>
+            <svg width="48" height="1" viewBox="0 0 48 1" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-2 w-2 sm:w-12">
+                <line y1="0.5" x2="48" y2="0.5" stroke="#DBDDE3"/>
+            </svg>
+        </div>
+        <div class="flex items-center">
+            <div class="mx-2 p-2 w-8 h-8 rounded-full flex items-center justify-center bg-(--main-brand) text-white cursor-pointer">
+                3
+            </div>
+            <span class="font-main">Checkout</span>
+        </div>
+    </div>
+</header>
+<section class="max-w-[1440px] pt-10 pb-[65px] px-5 lg:px-20 flex flex-col md: m-auto">
+    <h1 class="font-third text-[32px] font-bold">Checkout</h1>
+    <div class="flex flex-row max-lg:flex-col">
+        <div class="lg:w-1/2 md:max-w-[672px] ">
+            <p class="font-third py-6 text-[20px] font-bold">Shipping Information</p>
+            <form action="#" class="flex flex-col">
+                <label class="mb-6">
+                    <span class="relative after:content-['*'] after:ml-0.5 after:text-(--text-red) font-second">Full name</span>
+                    <input type="text"
+                           class=" mt-2 w-full text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] placeholder: p-[13px] placeholder: font-main focus-visible: outline-[#d0d2d5]"
+                           placeholder="Enter full name">
+                </label>
+                <label class="mb-6">
+                    <span class="relative after:content-['*'] after:ml-0.5 after:text-(--text-red) font-second">Email address</span>
+                    <input type="email"
+                           class=" mt-2 w-full text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] placeholder: p-[13px] placeholder: font-main focus-visible: outline-[#d0d2d5]"
+                           placeholder="Enter email address">
+                </label>
+                <label class="mb-6">
+                    <span class="relative after:content-['*'] after:ml-0.5 after:text-(--text-red) font-second">Phone number</span>
+                    <input type="text"
+                           class=" mt-2 w-full text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] placeholder: p-[13px] placeholder: font-main focus-visible: outline-[#d0d2d5]"
+                           placeholder="Enter phone number">
+                </label>
+                <label class="mb-6">
+                    <span class="relative after:content-['*'] after:ml-0.5 after:text-(--text-red) font-second">Country</span>
+                    <input type="text"
+                           class="mt-2 w-full text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] placeholder: p-[13px] placeholder: font-main focus-visible: outline-[#d0d2d5]"
+                           placeholder="Enter your country">
+                </label>
+                <div class="flex justify-between flex-col sm:flex-row">
+                    <label class="sm:mr-5 flex flex-col mb-5">
+                        <span class="font-second">City</span>
+                        <input type="text"
+                               class="sm:w-full lg:max-w-[210px] mt-2 text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] focus-visible: outline-[#d0d2d5] placeholder: p-[13px] placeholder: font-main"
+                               placeholder="Enter city">
+                    </label>
+                    <label class="sm:mr-5 flex flex-col mb-5">
+                        <span class="font-second">State</span>
+                        <input type="text"
+                               class="sm:w-full lg:max-w-[210px] mt-2 text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] focus-visible: outline-[#d0d2d5] placeholder: p-[13px] placeholder: font-main"
+                               placeholder="Enter state">
+                    </label>
+                    <label class="flex flex-col mb-3">
+                        <span class="font-second">ZIP Code</span>
+                        <input type="text"
+                               class="sm:w-full lg:max-w-[210px] mt-2 text-(--placeholder) border border-(--bg-light-gray) rounded-[8px] focus-visible: outline-[#d0d2d5] placeholder: p-[13px] placeholder: font-main"
+                               placeholder="Enter ZIP code">
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="max-w-full sm: w-[528px] pt-7 lg:ml-20">
+            <p class="font-third font-bold pb-6 text-[20px]">Review your cart</p>
+            <div class="flex flex-col pb-10">
+                <div class="flex mb-6">
+                    <!--<img src="" alt=""> не получается вставить картинку, вместо этого поставил закрашенный блок таких же размеров-->
+                    <div class="h-[100px] w-[100px] border border-[#D4D4D4] rounded-[8px] mr-4"></div>
+                    <div class="flex flex-col">
+                        <h3 class="font-second mb-2 leading-tight-[16px]">DuoComfort Sofa Premium</h3>
+                        <span class="font-main text-[14px] text-[#737373]">1x</span>
+                        <p class="font-third mt-[23px] leading-tight-[16px] font-bold">$20.00</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <!--<img src="" alt=""> не получается вставить картинку, вместо этого поставил закрашенный блок таких же размеров-->
+                    <div class="h-[100px] w-[100px] border border-[#D4D4D4] rounded-[8px] mr-4"></div>
+                    <div class="flex flex-col">
+                        <h3 class="font-second mb-2 leading-tight-[16px]">IronOne Desk</h3>
+                        <span class="font-main text-[14px] text-[#737373]">1x</span>
+                        <p class="font-third mt-[23px] leading-tight-[16px] font-bold">$25.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="flex flex-row justify-between w-full mb-4">
+                    <p class="text-[14px] text-(--bg-dark-gray) font-main">Subtotal</p>
+                    <span class="font-third font-bold text-[14px]">$45.00</span>
+                </div>
+                <div class="flex flex-row justify-between w-full mb-4">
+                    <p class="text-[14px] text-(--bg-dark-gray) font-main">Shipping</p>
+                    <span class="font-third font-bold text-[14px]">$5.00</span>
+                </div>
+                <div class="flex flex-row justify-between w-full mb-4">
+                    <p class="text-[14px] text-(--bg-dark-gray) font-main">Discount</p>
+                    <span class="font-third font-bold text-[14px]">-$10.00</span>
+                </div>
+                <div class="flex flex-row justify-between w-full mb-4">
+                    <p class="text-[16px] text-(--bg-dark-gray) font-third font-bold">Total</p>
+                    <span class="font-third font-bold text-[16px]">$40.00</span>
+                </div>
+            </div>
+            <button type="button" class="w-full p-[14px] text-white hover:bg-(--second-brand) cursor-pointer bg-(--main-brand) rounded-[8px] mt-[24px]">Pay Now</button>
+        </div>
+    </div>
+</section>
+<footer class="max-w-[1440px] px-5 lg:px-20 py-5">
+    <p class="font-second text-center text-[12px] text-[#737373]">© 2025 Furniture, Inc. All Rights Reserved</p>
+</footer>
+</body>
+</html>
